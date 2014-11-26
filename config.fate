@@ -1,0 +1,1 @@
+config:x86:x86_32:native:mingw32:gcc 4.8.1 (GCC):--enable-memalign-hack --arch=x86 --target-os=mingw32 --cross-prefix=i686-w64-mingw32- --pkg-config=pkg-config --enable-nonfree --enable-gpl --enable-version3 --enable-libmp3lame --enable-libopus --enable-libtheora --cpu=native --enable-libnvenc

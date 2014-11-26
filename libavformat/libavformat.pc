@@ -1,0 +1,14 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 56.9.101
+Requires: libavcodec >= 56.8.102, libswresample >= 1.1.100, libavutil >= 54.10.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavformat -lavicap32 -lgdi32 -lpsapi -lole32 -lstrmiids -luuid -lws2_32 -L/home/lin/source.build/crosscompile/mxe/usr/i686-w64-mingw32/lib -lmingw32 -lSDLmain -lSDL -lwinmm -mwindows -liconv -lm -luser32 -lgdi32 -lwinmm -ldxguid -ltheoraenc -ltheoradec -logg -lopus -lmp3lame -lm -llzma -lbz2 -lz -lpsapi -ladvapi32 -lshell32
+Libs.private: 
+Cflags: -I${includedir}
